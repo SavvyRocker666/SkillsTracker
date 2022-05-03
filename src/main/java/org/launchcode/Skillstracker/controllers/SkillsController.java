@@ -1,4 +1,4 @@
-package com.example.demo.controllers;
+package org.launchcode.Skillstracker.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -104,7 +104,7 @@ public class SkillsController {
                 <style>
                         .container{
                             padding: 5px;
-                            background: linear-gradient(black,blue);
+                            background: linear-gradient(black,red);
                             width: 80%;
                             margin: auto;
                             display: flex;
@@ -114,7 +114,7 @@ public class SkillsController {
                             text-align: center;
                         }
                         .heart{
-                            color: red;
+                            color: black;
                         }
                         form{
                             width: 50%;
@@ -158,4 +158,5 @@ public class SkillsController {
                         }
                     </style>
                 """;
-    }}
+    }
+}
